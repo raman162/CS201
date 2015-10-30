@@ -1,0 +1,3 @@
+Odrzywolska,Sylwia,NA,A20250522,CHE,UG
+Simpson,Homer,Jay,A20253512,CS,G
+Walwyn-Venugopal,Raman,Stephen,A20296946,MMAE,UG

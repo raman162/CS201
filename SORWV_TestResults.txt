@@ -1,0 +1,65 @@
+First we see the schedule we are beginning with 
+Course CHE302 is 3 credit hours and will be offered on Tuesday and Thursday at 11:25 am.
+Course CHE351 is 3 credit hours and will be offered on Monday and Wednesday at 1:50 pm.
+Course CHE406 is 3 credit hours and will be offered on Tuesday and Thursday at 10:00 am.
+Course ECE218 is 3 credit hours and will be offered on Monday and Wednesday at 10:00 am.
+ 
+Our course1 is Course MATH252 is 4 credit hours and will be offered on Monday, Wednesday, and Friday at 11:25 am.
+ 
+This is the schedule with course1 added 
+Course CHE302 is 3 credit hours and will be offered on Tuesday and Thursday at 11:25 am.
+Course CHE351 is 3 credit hours and will be offered on Monday and Wednesday at 1:50 pm.
+Course CHE406 is 3 credit hours and will be offered on Tuesday and Thursday at 10:00 am.
+Course ECE218 is 3 credit hours and will be offered on Monday and Wednesday at 10:00 am.
+Course MATH252 is 4 credit hours and will be offered on Monday, Wednesday, and Friday at 11:25 am.
+ 
+This is the schedule with course1 deleted 
+Course CHE302 is 3 credit hours and will be offered on Tuesday and Thursday at 11:25 am.
+Course CHE351 is 3 credit hours and will be offered on Monday and Wednesday at 1:50 pm.
+Course CHE406 is 3 credit hours and will be offered on Tuesday and Thursday at 10:00 am.
+Course ECE218 is 3 credit hours and will be offered on Monday and Wednesday at 10:00 am.
+ 
+Our course2 is Course CHE351 is 3 credit hours and will be offered on Monday and Wednesday at 1:50 pm.
+ 
+This is the information corresponding to the position provided by the isThere(course2) method 
+Course CHE351 is 3 credit hours and will be offered on Monday and Wednesday at 1:50 pm.
+ 
+A CourseArray with just MMAE courses was created with the use of majorSearch() method. The following is the result
+Course MMAE100 is 3 credit hours and will be offered on Tuesday and Thursday at 11:25 am.
+Course MMAE200 is 3 credit hours and will be offered on Tuesday and Thursday at 10:00 am.
+Course MMAE202 is 3 credit hours and will be offered on Monday and Wednesday at 3:15 pm.
+Course MMAE304 is 3 credit hours and will be offered on Tuesday and Thursday at 1:50 pm.
+Course MMAE305 is 3 credit hours and will be offered on Monday and Wednesday at 8:35 am.
+Course MMAE313 is 3 credit hours and will be offered on Monday and Wednesday at 10:00 am.
+Course MMAE320 is 3 credit hours and will be offered on Tuesday and Thursday at 8:35 am.
+ 
+This is the information corresponding to the position provided by the directCourseSearch(“MMAE”, 320) method 
+Course MMAE320 is 3 credit hours and will be offered on Tuesday and Thursday at 8:35 am.
+ 
+Here is the list of all the students in the system
+Undergraduate Student: Name: Odrzywolska Sylwia NA ANumber: A20250522 Major: CHE
+Graduate Student: Name: Simpson Homer Jay ANumber: A20253512 Major: CS
+Undergraduate Student: Name: Walwyn-Venugopal Raman Stephen ANumber: A20296946 Major: MMAE
+This displays polymorphism because there are two types of students, undergrad and graduate
+ 
+Showing the adding of a student rasta to the students array
+Undergraduate Student: Name: Odrzywolska Sylwia NA ANumber: A20250522 Major: CHE
+Graduate Student: Name: Simpson Homer Jay ANumber: A20253512 Major: CS
+Undergraduate Student: Name: Walwyn-Venugopal Raman Stephen ANumber: A20296946 Major: MMAE
+Undergraduate Student: Name: Doe John M ANumber: A20253542 Major: MMAE
+ 
+Another form of polymorphism is when the program performs the checkMax and checkMin functions
+0 This is the check min value for Undergrad
+6 This is the check min value for Grad
+2 This is the check max value Undergrad
+-4 This is the check max value Grad
+ 
+Another form of polymorphism to display is the token string which is used when writing the updated list of students to the file
+Odrzywolska,Sylwia,NA,A20250522,CHE,UG
+Simpson,Homer,Jay,A20253512,CS,G
+Walwyn-Venugopal,Raman,Stephen,A20296946,MMAE,UG
+Doe,John,M,A20253542,MMAE,UG
+ 
+Searaching for a studnet using their anumber
+3 This is the location of the student in the List
+ 
